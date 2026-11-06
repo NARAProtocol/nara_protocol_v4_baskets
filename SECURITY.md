@@ -88,7 +88,7 @@ stack on a local Base fork.
 Report suspected vulnerabilities privately. Do not open a public issue, pull
 request, discussion, or social-media thread for an unresolved exploit.
 
-- Email: **security@naraprotocol.pro**
+- Email: **security@naraprotocol.io**
 - Include the affected commit and contract or app file.
 - Include exact file and line references.
 - Include prerequisites, impact, and a reproducing transaction or test sequence
@@ -108,5 +108,5 @@ demonstrate the issue. Use local tests or a fork whenever possible.
 
 ## Contact
 
-- Website: [naraprotocol.pro](https://naraprotocol.pro)
-- Security email: [security@naraprotocol.pro](mailto:security@naraprotocol.pro)
+- Website: [naraprotocol.io](https://naraprotocol.io)
+- Security email: [security@naraprotocol.io](mailto:security@naraprotocol.io)

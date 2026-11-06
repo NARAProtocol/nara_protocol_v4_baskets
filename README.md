@@ -257,10 +257,10 @@ complete user journey.
 
 ## Community
 
-- Website: [naraprotocol.pro](https://naraprotocol.pro)
+- Website: [naraprotocol.io](https://naraprotocol.io)
 - Farcaster: `@naraprotocol`
 - X: [@NARA_protocol](https://x.com/NARA_protocol)
-- Security: [security@naraprotocol.pro](mailto:security@naraprotocol.pro)
+- Security: [security@naraprotocol.io](mailto:security@naraprotocol.io)
 
 ## License
 
