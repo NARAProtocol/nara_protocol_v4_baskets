@@ -28,7 +28,7 @@ app, deployment, and maintenance detail.
 
 ## App rules
 
-- [`../app/AGENTS.md`](../app/AGENTS.md) — implementation and cold-AI rules
+- [`../app/AGENTS.md`](../app/AGENTS.md) — implementation and AI agent rules
 - [`../app/DESIGN.md`](../app/DESIGN.md) — approved visual and interaction system
 - [`../app/src/shared/baskets.ts`](../app/src/shared/baskets.ts) — app basket
   configuration and transaction builders
