@@ -24,6 +24,17 @@ sells or withdraws them.
 > so this app permits no basket purchase or exit writes. Do not use placeholder
 > addresses, release-candidate tags, or an unverified manifest for deployment
 > or value-bearing activity.
+>
+> **Canonical NARA V5 Upstream (`Base Mainnet 8453`, Block `54,778,829`):** The canonical NARA token is `NARATokenV5` (`0x91FB78A9F46B67f54BbD4489941d19666b2fAe0f`), paired with `NARAEpochEngineV5` (`0xd93FbEbFb33FAc9288125074625D4750573B1a53`), `NARALiquidityHookV5` (`0x07d8F2Dfd121B10dE3176DeAb6A8C0eaa2646aCC`), `NARAFeeVaultV5` (`0xF1f361F803895BF5cf67eC6C506dbFEf2f6E88Cf`), `NARATreasuryFeeControllerV5` (`0xB6A436b48222C94fe427ecAfB263DF9cf42646b9`), and canonical Uniswap v4 Pool ID `0x4a475299ef674bcc3d2c87c3917cfbecd38cf7237646a3553e37daba67da6e5f`.
+
+## 🧭 Start Here by Audience (4-Persona Router)
+
+| Audience / Role | Primary Documentation & Entry Points |
+| :--- | :--- |
+| **👤 Everyday Users & Community** | [**Public Documentation Hub (`NARAProtocol/nara_protocol`)**](https://github.com/NARAProtocol/nara_protocol) · [**Example Baskets (`docs/EXAMPLE_BASKETS.md`)**](docs/EXAMPLE_BASKETS.md) · [**Receipt Basket Flow (`docs/RECEIPT_BASKET_FLOW.md`)**](docs/RECEIPT_BASKET_FLOW.md) |
+| **🛠️ DeFi & Protocol Integrators** | [**NARA Integration (`docs/NARA_INTEGRATION.md`)**](docs/NARA_INTEGRATION.md) · [**Deployment Manifest Schema (`docs/DEPLOYMENT_MANIFEST.md`)**](docs/DEPLOYMENT_MANIFEST.md) · [**Basket App Guide (`app/README.md`)**](app/README.md) |
+| **🛡️ Security Auditors & Reviewers** | [**Security Checklist (`docs/SECURITY_CHECKLIST.md`)**](docs/SECURITY_CHECKLIST.md) · [**Validation Status (`docs/VALIDATION_STATUS.md`)**](docs/VALIDATION_STATUS.md) · [**Security Policy (`SECURITY.md`)**](SECURITY.md) |
+| **🤖 AI Assistants & Autonomous Agents** | [**Repository Agent Rules (`AGENTS.md`)**](AGENTS.md) · [**App Agent Rules (`app/AGENTS.md`)**](app/AGENTS.md) · [**App Design Rules (`app/DESIGN.md`)**](app/DESIGN.md) |
 
 ## Current status
 

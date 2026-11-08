@@ -1,5 +1,12 @@
 # NARA Integration
 
+> **V5 Canonical Base Mainnet Upstream (`Chain ID 8453`, Block `54,778,829`):**
+> - **Token (`NARATokenV5`):** `0x91FB78A9F46B67f54BbD4489941d19666b2fAe0f` (`1,000,000` fixed supply)
+> - **Epoch Engine (`NARAEpochEngineV5`):** `0xd93FbEbFb33FAc9288125074625D4750573B1a53` (`NARARewardIngressV5` `0x44130CC47b886D8488041F5eaE271477D1aFA909`)
+> - **Uniswap v4 Hook (`NARALiquidityHookV5`):** `0x07d8F2Dfd121B10dE3176DeAb6A8C0eaa2646aCC` (`4.63%` base fee scaling to `20.00%` max cap; `NARAHookFeeCalculatorV5` `0xeCc6bB347c615BD51E13dcAB670D0c34Df3375F8`)
+> - **Canonical Pool ID:** `0x4a475299ef674bcc3d2c87c3917cfbecd38cf7237646a3553e37daba67da6e5f` (`USDC / NARA`, `fee = 3000`, `tickSpacing = 60`)
+> - **Fee Vault & Zero-Delay Controller:** `NARAFeeVaultV5` (`0xF1f361F803895BF5cf67eC6C506dbFEf2f6E88Cf`) + `NARATreasuryFeeControllerV5` (`0xB6A436b48222C94fe427ecAfB263DF9cf42646b9`)
+
 > **Current state (2026-08-30):** the canonical NARA v4 contracts and
 > NARA/USDC pool use real assets in technical live testing. Basket managers,
 > the V2 collector, and the five-adapter set are not deployed, and the basket
