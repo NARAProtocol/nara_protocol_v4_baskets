@@ -18,9 +18,12 @@ The manager contract holds those tokens against the receipt until the owner
 sells or withdraws them.
 
 > [!WARNING]
-> **Pre-launch. Basket contracts are not deployed on Base mainnet and the app is
-> preview-only.** Do not use placeholder addresses, the current release-candidate
-> tags, or an unverified manifest for deployment or value-bearing activity.
+> **Technical live testing upstream; basket app preview-only.** The canonical
+> NARA v4 contracts and NARA/USDC pool use real assets on Base. Basket managers,
+> the V2 fee collector, and the five-adapter production set are not deployed,
+> so this app permits no basket purchase or exit writes. Do not use placeholder
+> addresses, release-candidate tags, or an unverified manifest for deployment
+> or value-bearing activity.
 >
 > **Canonical NARA V5 Upstream (`Base Mainnet 8453`, Block `54,778,829`):** The canonical NARA token is `NARATokenV5` (`0x91FB78A9F46B67f54BbD4489941d19666b2fAe0f`), paired with `NARAEpochEngineV5` (`0xd93FbEbFb33FAc9288125074625D4750573B1a53`), `NARALiquidityHookV5` (`0x07d8F2Dfd121B10dE3176DeAb6A8C0eaa2646aCC`), `NARAFeeVaultV5` (`0xF1f361F803895BF5cf67eC6C506dbFEf2f6E88Cf`), `NARATreasuryFeeControllerV5` (`0xB6A436b48222C94fe427ecAfB263DF9cf42646b9`), and canonical Uniswap v4 Pool ID `0x4a475299ef674bcc3d2c87c3917cfbecd38cf7237646a3553e37daba67da6e5f`.
 
@@ -44,6 +47,7 @@ sells or withdraws them.
 | Basket app | Implemented; preview-only |
 | Base basket deployments | Not deployed |
 | Production manifests | Not available |
+| Upstream Position NFT Phase-2 | Deployed, tested, source-verified, Safe-finalized; `integrationReady: false` |
 | End-to-end candidate fork rehearsal | Required before deployment |
 | Independent audit | Not performed |
 
@@ -94,6 +98,11 @@ flowchart LR
 The basket package does not modify NARA v4 core contracts. It integrates only
 through verified addresses and the engine reward interfaces documented in
 [`docs/NARA_INTEGRATION.md`](docs/NARA_INTEGRATION.md).
+
+The current documentation handoff is pinned to protected protocol merge
+`dae88079dd336e22bdefde6f45e3b01389d554cb` under change ID
+`NARA-20260830-documentation-convergence`. Contract identities and deployment
+state still come from the verified manifests referenced by that commit.
 
 ## Canonical contracts
 
@@ -215,6 +224,7 @@ referral-share fees.
 | [`docs/DEPLOYMENT_MANIFEST.md`](docs/DEPLOYMENT_MANIFEST.md) | Sanitized deployment evidence schema |
 | [`docs/VALIDATION_STATUS.md`](docs/VALIDATION_STATUS.md) | Current test and tooling evidence |
 | [`docs/ROUND_FLOW_RELEASE_GATE.md`](docs/ROUND_FLOW_RELEASE_GATE.md) | Complete v4 round-flow release gate and unresolved deployment blockers |
+| [`docs/releases/NARA-20260830-documentation-convergence.md`](docs/releases/NARA-20260830-documentation-convergence.md) | Current immutable protocol handoff, copy boundary, and verification record |
 | [`docs/REPOSITORY_MAINTENANCE.md`](docs/REPOSITORY_MAINTENANCE.md) | Mandatory synchronization and change-control protocol |
 
 ## Security model
@@ -244,10 +254,17 @@ independent audit is claimed. Report suspected vulnerabilities privately using
 ## Legal notice
 
 This repository provides experimental software and technical documentation. It
-does not provide investment, legal, tax, or suitability advice. Basket tokens
-can lose all value. The receipt represents a claim against tokens held by the
-basket contract; it is not a promise of price, liquidity, return, protection,
-or uninterrupted exit.
+does not provide investment, legal, tax, or suitability advice, and nothing in
+it is an invitation, inducement, or recommendation to acquire, hold, sell, or
+use a token or basket. Basket tokens can lose all value. The receipt records
+token amounts and contract-defined control paths for underlying tokens held by
+the basket contract; this documentation makes no legal ownership or custody
+characterization. It is not a promise of price, liquidity, return, protection,
+or uninterrupted exit. This
+repository contains no evidence of completed jurisdiction-specific qualified
+legal review. Consumer activation or marketing requires written review for the
+relevant entity, jurisdictions, audience, distribution route, disclosures, and
+complete user journey.
 
 ## Community
 
