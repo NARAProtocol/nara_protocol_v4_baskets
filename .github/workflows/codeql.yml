@@ -40,4 +40,4 @@ jobs:
       - name: Build app
         run: npm run build --prefix app
       - name: Analyze
-        uses: github/codeql-action/analyze@4187e74d05793876e9989daffde9c3e66b4acd07 # v3
+        uses: github/codeql-action/analyze@33d7b85da1a04171e211befe2c739303b9a4c066 # v3
