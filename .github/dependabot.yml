@@ -26,6 +26,9 @@ updates:
       # @rainbow-me/rainbowkit 2.2.x requires peer wagmi@^2.9.0 (blocks wagmi v3)
       - dependency-name: "wagmi"
         update-types: ["version-update:semver-major"]
+      # TypeScript 7 major jump breaks locked npm ci resolution for Vite/React toolchain
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
 
   - package-ecosystem: gitsubmodule
     directory: /
